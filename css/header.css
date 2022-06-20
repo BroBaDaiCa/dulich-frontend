@@ -1,0 +1,82 @@
+/*css header*/
+		header{
+			    background-image: url(https://venustravel.webtravel.vn/Files/images/hoa-sen.png);
+		}
+		.logo,.header-center,.header-right{
+			height:100px;
+			position: relative;
+		}
+		.logo .wrap-logo{
+			transform: translate()
+		}
+		.logo .wrap-logo img{
+			width: 150px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.container-fluid{
+			
+		}
+		.header-center{
+			text-align: center;
+		}
+		.header-center .header-center_top .warp-top-link a{
+			color: white;
+		}
+		.header-center .header-center_top .warp-top-link{
+			padding: 7px 15px;
+			background:  #1444C6;
+			border-radius: 7px;
+			border: 2px solid #FFFFFF;
+			margin: 0px 10px;
+			box-shadow: 1px 1px 7px 0px #9f9696;
+			
+		}
+		.header-center .header-center_bottom{
+			padding-top: 15px;
+		}
+		.header-center .header-center_bottom span{
+			padding: 10px;
+			font-weight: 600;
+		}
+		.header-center .header-center_bottom span a{
+			color: #1A1919;
+		}
+		.header-center .header-center_bottom span i{
+			margin-right: 5px;
+			color: red;
+		}
+		.header-wrap-center{
+			margin: 0;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			width: 700px;
+		}
+		.header-right .menu-header{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		.header-right .menu-header ul{
+			display: flex;
+		}
+		.header-right .menu-header ul li{
+			width: 70px;
+			float: left;
+			margin-right:20px;
+			list-style-type: none;
+		}
+		.header-right .menu-header ul li a{
+			font-weight: 600;
+			color: #1444C6;
+		}
+		.banner-home{
+			height: 550px;
+			position: relative;
+			width: 100%
+		}
+		

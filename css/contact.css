@@ -1,0 +1,56 @@
+
+		#txt-lh ul{
+			padding-left: 0px;
+		}
+		#txt-lh li{
+			list-style-type: none;
+			padding: 5px 0px;
+			color: white;
+		}
+		#txt-lh li i{
+			margin-right: 10px;
+			font-size: 20px;
+			color: #FF9E00;
+		}
+		#txt-lh li:first-child img{
+			width: 40%;
+		}
+		#txt-lh li:nth-child(2){
+			font-size: 24px;
+			
+		}
+		#lh{
+			background: url("img/5-dieu-can-biet-khi-thiet-ke-website-du-lich.jpg");
+			
+		}
+		.lh{
+			background: hsla(224,54%,60%,0.79);
+		}
+		#contactform{
+			padding: 0px 40px;
+			background: hsla(0,0%,82%,1.00);
+			border-radius: 20px;
+		}
+		
+		#contactform div{
+			padding: 10px 0px;
+		}
+		.lh .container{
+			padding: 20px 0px;
+		}
+		#btn-lh{
+			background: #4000FF;
+			color: white;
+			font-weight: 600;
+		}
+		#btn-lh:hover{
+			background:white ;
+			color: #4000FF;
+			font-weight: 600;
+		}
+		#contactform input, #contactform  textarea,#contactform select,#contactform button{
+			width: 100%;
+			padding: 7px;
+			border-radius: 10px;
+			border: none;
+		}

@@ -1,0 +1,108 @@
+/*
+<!--	css footer-->
+	<style>
+*/
+		footer{
+			background: #195BCC;
+			color: #F7F7F7;
+		}
+		.title-ft h4{
+			font-weight: 600;
+			display: table;
+			border-bottom: 3px solid #FF7E00;
+			padding-bottom: 5px;
+			
+		}
+		.ft-v1_wrap ul{
+			padding-left: 0px;
+			list-style-type: none;
+		}
+		.ft-v1_wrap ul li{
+			padding: 7px 0px;
+		}
+		.pay-item{
+			
+		}
+		.pay-item img{
+			width:70px;
+			float: left;
+			padding: 10px;
+		}
+		.wrap-logo_ft
+		{
+			width: 250px;
+			position: relative;
+		}
+		.wrap-logo_ft img{
+			width: 100%;
+/*		height: 550px;*/
+		object-fit: cover;
+		/* position: relative; */
+/*		position: absolute;*/
+		}
+		.title-footer-internet{
+			display: table;
+			margin: auto;
+		}
+		.title-footer-internet h4{
+			border: none;
+			padding-top: 150px;
+		}
+		.wrap-inter_img i{
+			border:1px solid #FFFFFF;
+			padding: 15px;
+			border-radius: 5px;
+		}
+		.wrap-inter_img i:hover{
+			color: #160BDC;
+			background: #FBFBFB;
+		}
+		.inter-item{
+			display: flex;
+	
+		}
+		.wrap-inter_img{
+			margin: auto;
+		}
+		#txt-fter{
+			text-align: justify;
+		}
+		.receive-info__head span{
+			font-weight: 600;
+			font-size: 14px;
+			color: blue;
+		}
+		.receive-info__head img{
+			width: 70px;
+		}
+		.receive-info{
+			background: #EFEFEF;
+		}
+		
+		#form-getsale .form-group{
+			width: 50%;
+			float: left;
+			padding: 7px;
+		}
+		.btn-signup{
+			width: 250px;
+			background: #0341E9;
+			margin: auto;
+		}
+.gach-chantrang{
+	
+	
+			width: 100%;
+			height: 0.2px;
+			background: #FFFFFF;
+			margin-top: 10px;
+		}
+		.txt-chantran{
+			text-align: center;
+			padding: 10px 0px;
+		}
+		.row{
+			margin-bottom: 20px;
+		}
+
+/*	</style>*/
