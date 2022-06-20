@@ -1,0 +1,868 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Kinh nghiệm đi lễ C&#244;n Đảo</title>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords">
+    <meta name="description" content="Kinh nghiệm đi lễ C&#244;n Đảo">
+    <link rel="icon" href="/favicon.ico">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    
+
+    <!-- Vendor CSS Files cdn -->
+    <link rel="stylesheet" href="/Plugins/bootstrap-4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Plugins/fonts/css/all.css">
+	
+    <link rel="stylesheet" type="text/css" href="/Plugins/daterangepicker/daterangepicker.css" />
+
+    <!-- Plugin css local-->
+    <link href="/Plugins/OwlCarousel/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Plugins/OwlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/Plugins/slick/slick.css">
+    <link rel="stylesheet" href="/Plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="/Plugins/fancybox/jquery.fancybox.min.css">
+
+    <!-- Template Main CSS File -->
+    <link href="/Assets/css/style.css" rel="stylesheet" />
+	<link href="/Assets/css/page-detail.css" rel="stylesheet" />
+    <link href="/Assets/css/responsive.css" rel="stylesheet" />
+    
+
+</head>
+<body>
+
+<div class="contacthotel"> 
+		<div class="container">
+			<div class="topcontact">
+				<div class="back">
+					 <a href="https://webhotel.vn/"> &#10554; Về trang chủ </a>
+				</div>
+				<div class="order">
+					<a href="https://webtravel.vn/Dang-ki?MaWebSite=M%E1%BA%ABu%2041:%20Venus%20Travel"> 
+						Sử dụng giao diện này
+					</a>
+					<a href="#" class="closetop">
+						&#10005;
+					</a>
+				</div>
+			
+			</div>
+			
+		</div>
+	</div>
+  
+
+<style> 
+.topcontact {
+     display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    align-items: center;
+    font-weight: 600;
+	z-index:1111;
+	transition:all .5s ease-in-out;
+}
+.contacthotel {
+   
+    background: #0072bd;
+    z-index: 111111;
+    width: 100%;
+	transition:all .5s ease-in-out;
+}
+.order
+{
+	display:flex;
+	color:#FFf;
+	 align-items: center;
+    font-weight: 600;
+	z-index:111;
+}
+.topcontact a
+{
+	color: #FFF !important;
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+    	display: block;
+}
+.closetop {
+    padding-left: 10px;
+    color: #FFF;
+    z-index: 111;
+    background: transparent!important;
+}
+.topcontact .order a
+{
+    padding: 3px 15px;
+    border-radius: 5px;
+    background: #f8c218;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+/*.contacthotel.fixedcontact {
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+    top: 0;
+    left: 0;
+}*/
+@media(max-width:767px)
+{
+.contacthotel {
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+    bottom:0;
+    left: 0;
+    display: block !important;
+}
+.contacthotel.fixedcontact {
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+    top: 93%;
+    left: 0;
+}
+.topcontact {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    align-items: center;
+    font-weight: 600;
+    z-index: 111;
+    transition: all .5s ease-in-out;
+    font-size: 13px;
+}
+.topcontact .order a {
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+}
+</style>
+
+    <div class="header">
+       <div class="header-top_wp">
+	   
+	    <div class="container">
+            <div class="header__top">
+                <div class="logo">
+                    <a href="/"><img src="/Assets/images/logo-menu.PNG" alt="HN-tour"></a>
+                </div>
+                <div class="header__mid d-none d-lg-block">
+                    <ul class="header__list-tag ">
+                        <li class="header__tag-item">
+                            <a href="/Destination/nha-trang" class="header__tag--link btn">Du lịch Nha Trang </a>
+                        </li>
+                        <li class="header__tag-item">
+                            <a href="/Destination/da-nang" class="header__tag--link btn">Du Lịch Đà Nẵng </a>
+                        </li>
+                        <li class="header__tag-item">
+                            <a href="/Destination/phu-quoc" class="header__tag--link btn">Du lịch Phú Quốc</a>
+                        </li>
+                        <li class="header__tag-item">
+                            <a href="/tour-khuyen-mai" class="header__tag--link btn">Tour Khuyến Mãi</a>
+                        </li>
+                    </ul>
+                    <div class="header__info">
+                       
+						 <div class="menu-tel position-relative">
+                            <div class="header__info--tel header__info__item" data-toggle="dropdown">
+                            	<i class="fas fa-phone-alt"></i>
+                            	<a href="tel: 0242 242 0777" class="ml-1 mr-2">0242 242 0777</a>
+								<i class="fas fa-angle-down"></i>
+                        	</div>
+                            <div class="header__info--hotline header__info__item dropdown-menu">
+                                <i class="fas fa-mobile-alt ml-1" style="font-size: 15px"></i>
+                                <a href="tel:0242 242 0777" class="ml-2 mr-2">0242 242 0777</a>
+                            </div>
+                        </div>
+                        <div class="header__info--mail header__info__item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@webtravel.vn">info@webtravel.vn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__right-top d-none d-lg-block">
+                        <a href="/article/gioi-thieu" class=""><span>Giới thiệu</span></a>
+                        <a href="/lien-he" class=""><span>Liên hệ</span></a>
+						<a href="/thu-vien" class=""><span>Hình ảnh</span></a>
+                     
+                    </div>
+                    <!-- <div class="header__right-bottom">
+                            <a href="#" class="btn btn--sign-up"><span>Đăng ký</span></a>
+                            <a href="#" class="btn btn--login"><span>Đăng nhập</span></a>
+                        </div> -->
+                    <div class="header__right-mobile d-flex d-lg-none">
+                        
+
+                        <a href="javascript:void(0)" class="toogle-menu"><img src="/Files/images/icon/bar.svg" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+	   </div>
+        <!-- end header__top -->
+
+        <nav class="header__bottom">
+            <div class="container">
+                
+
+<ul class="nav-menu">
+
+                <li class="nav__item">
+                    <a href="/" class="nav--link">Trang chủ</a>
+                </li>
+                <li class="nav__item pos-static">
+                    <a href="/du-lich-trong-nuoc" class="nav--link">DU LỊCH TRONG NƯỚC</a>
+                    <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-2">
+                        <span class="fas fa-sort-down"></span>
+                    </button>
+                    <div class="menu-hover menu-large">
+                        <div class="container">
+                            <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN BẮC</h3>
+                                            <ul class="menu-child">
+
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/ha-noi" class="menu-child--link">
+                                                            H&#224; Nội
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/nam-dinh" class="menu-child--link">
+                                                            Nam Định
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/moc-chau" class="menu-child--link">
+                                                            Mộc Ch&#226;u
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/ha-long" class="menu-child--link">
+                                                            Hạ Long
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/sapa" class="menu-child--link">
+                                                            Sapa
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/ninh-binh" class="menu-child--link">
+                                                            Ninh B&#236;nh
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN TRUNG</h3>
+                                            <ul class="menu-child">
+
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/hue" class="menu-child--link">
+                                                            Huế
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/da-nang" class="menu-child--link">
+                                                            Đ&#224; Nẵng
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/da-lat" class="menu-child--link">
+                                                            Đ&#224; Lạt
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/quy-nhon" class="menu-child--link">
+                                                            Quy Nhơn
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/thanh-hoa" class="menu-child--link">
+                                                            Thanh H&#243;a
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/nha-trang" class="menu-child--link">
+                                                            Nha Trang
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN NAM</h3>
+                                            <ul class="menu-child">
+
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/ho-chi-minh" class="menu-child--link">
+                                                            Hồ Ch&#237; Minh
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/phu-quoc" class="menu-child--link">
+                                                            Ph&#250; Quốc
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/con-dao" class="menu-child--link">
+                                                            C&#244;n Đảo
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/ca-mau" class="menu-child--link">
+                                                            C&#224; Mau
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">TOUR THEO CHỦ ĐỀ</h3>
+                                            <ul class="menu-child">
+
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/kich-cau-hau-covid" class="menu-child--link">
+                                                            K&#237;ch cầu hậu Covid
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/tour-nghi-le-30-04" class="menu-child--link">
+                                                            Tour nghỉ lễ 30-04
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/tour-theo-mua" class="menu-child--link">
+                                                            Tour theo m&#249;a
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/tour-mua-thu" class="menu-child--link">
+                                                            Tour m&#249;a thu
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-child__item">
+                                                        <a href="/Destination/du-lich-he" class="menu-child--link">
+                                                            Du lịch h&#232;
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collaps-2" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-1">MIỀN BẮC</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-1">
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/ha-noi" class="menu-child--link">H&#224; Nội</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/nam-dinh" class="menu-child--link">Nam Định</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/moc-chau" class="menu-child--link">Mộc Ch&#226;u</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/ha-long" class="menu-child--link">Hạ Long</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/sapa" class="menu-child--link">Sapa</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/ninh-binh" class="menu-child--link">Ninh B&#236;nh</a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-2">MIỀN TRUNG</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-2">
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/hue" class="menu-child--link">Huế</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/da-nang" class="menu-child--link">Đ&#224; Nẵng</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/da-lat" class="menu-child--link">Đ&#224; Lạt</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/quy-nhon" class="menu-child--link">Quy Nhơn</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/thanh-hoa" class="menu-child--link">Thanh H&#243;a</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/nha-trang" class="menu-child--link">Nha Trang</a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-3">MIỀN NAM</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-3">
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/ho-chi-minh" class="menu-child--link">Hồ Ch&#237; Minh</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/phu-quoc" class="menu-child--link">Ph&#250; Quốc</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/con-dao" class="menu-child--link">C&#244;n Đảo</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/ca-mau" class="menu-child--link">C&#224; Mau</a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-4">TOUR THEO CHỦ ĐỀ</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-4">
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/kich-cau-hau-covid" class="menu-child--link">K&#237;ch cầu hậu Covid</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/tour-nghi-le-30-04" class="menu-child--link">Tour nghỉ lễ 30-04</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/tour-theo-mua" class="menu-child--link">Tour theo m&#249;a</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/tour-mua-thu" class="menu-child--link">Tour m&#249;a thu</a>
+                                        </li>
+                                        <li class="menu-child__item">
+                                            <a href="/Destination/du-lich-he" class="menu-child--link">Du lịch h&#232;</a>
+                                        </li>
+                                </ul>
+                            </div>
+
+                    </div>
+                </li>
+                <li class="nav__item">
+                    <a href="/hot-tour" class="nav--link">HOT TOUR</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-3">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/tour-khuyen-mai" class="menu-child--link">Tour khuyến m&#227;i</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-3" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/tour-khuyen-mai" class="menu-child--link">Tour khuyến m&#227;i</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </li>
+                <li class="nav__item">
+                    <a href="/combo-du-lich" class="nav--link">COMBO DU LỊCH</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-4">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/combo" class="menu-child--link">Combo</a></li>
+                                        <li class="menu-child__item"><a href="/voucher" class="menu-child--link">Voucher</a></li>
+                                        <li class="menu-child__item"><a href="/du-lich-venus" class="menu-child--link">DU LỊCH VENUS</a></li>
+                                        <li class="menu-child__item"><a href="/khach-san" class="menu-child--link">Kh&#225;ch sạn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-4" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/combo" class="menu-child--link">Combo</a></li>
+                                        <li class="menu-child__item"><a href="/voucher" class="menu-child--link">Voucher</a></li>
+                                        <li class="menu-child__item"><a href="/du-lich-venus" class="menu-child--link">DU LỊCH VENUS</a></li>
+                                        <li class="menu-child__item"><a href="/khach-san" class="menu-child--link">Kh&#225;ch sạn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </li>
+                <li class="nav__item">
+                    <a href="/van-chuyen" class="nav--link">VẬN CHUYỂN</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-5">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/thue-xe" class="menu-child--link">Thu&#234; xe</a></li>
+                                        <li class="menu-child__item"><a href="/du-thuyen" class="menu-child--link">Du thuyền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-5" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/thue-xe" class="menu-child--link">Thu&#234; xe</a></li>
+                                        <li class="menu-child__item"><a href="/du-thuyen" class="menu-child--link">Du thuyền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </li>
+                <li class="nav__item">
+                    <a href="/blog-du-lich" class="nav--link">Blog du lịch</a>
+
+                </li>
+                <li class="nav__item">
+                    <a href="/tin-tuc" class="nav--link">TIN TỨC</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-7">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/thu-vien" class="menu-child--link">Thư viện</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-7" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                        <li class="menu-child__item"><a href="/thu-vien" class="menu-child--link">Thư viện</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </li>
+                <li class="nav__item">
+                    <a href="/lien-he" class="nav--link">LI&#202;N HỆ</a>
+
+                </li>
+
+
+
+    <li class="nav__item show-mobile">
+        <div class="tel-number">
+            <i class="fas fa-clock"></i>
+            <a href="tel: 0242 242 0777">0242 242 0777</a>-
+            <a href="tel: 0242 242 0777">0242 242 0777</a>
+        </div>
+        <div class="email">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@webtravel.vn">info@webtravel.vn</a>
+        </div>
+    </li>
+</ul>
+
+
+            </div>
+        </nav>
+
+        <div class="overlay-menu d-block d-lg-none">
+
+        </div>
+        <!-- header__bottom -->
+    </div>
+
+
+    
+
+<div class="container mt-5">
+
+    <div class="col-md-12">
+        <div class="text-post">
+            <h1 class="uppercase text-center fontsize20">Kinh nghiệm đi lễ C&#244;n Đảo</h1>
+            <div style="text-align: justify;">I. Kinh nghiệm đi lễ C&ocirc;n Đảo kh&ocirc;ng phải ai cũng biết<br />
+<br />
+1. Thời gian đi lễ tại C&ocirc;n ĐảoVới nghĩa trang H&agrave;ng Dương, miếu b&agrave; Phi Yến hay ch&ugrave;a N&uacute;i Một, du kh&aacute;ch c&oacute; thể đi lễ bất cứ khoảng thời gian n&agrave;o trong ng&agrave;y. Ri&ecirc;ng chỉ c&oacute; đi viếng mộ c&ocirc; S&aacute;u th&igrave; đặc biệt hơn một ch&uacute;t. H&agrave;ng ng&agrave;y v&agrave;o giờ T&yacute; (sau 22h đ&ecirc;m) l&agrave; l&uacute;c mộ c&ocirc; S&aacute;u đ&ocirc;ng người đến d&acirc;ng lễ nhất. Theo người d&acirc;n tr&ecirc;n đảo, đ&oacute; l&agrave; khung giờ linh thi&ecirc;ng, th&agrave;nh t&acirc;m đi lễ v&agrave;o thời điểm đ&oacute; ước nguyện sẽ dễ th&agrave;nh hiện thực.V&agrave; nếu như du kh&aacute;ch đến C&ocirc;n Đảo chỉ để trải nghiệm du lịch t&acirc;m linh với lịch tr&igrave;nh ch&iacute;nh l&agrave; c&aacute;c địa điểm như tr&ecirc;n, du kh&aacute;ch n&ecirc;n chọn tour C&ocirc;n Đảo 4 ng&agrave;y 3&nbsp; đ&ecirc;m l&agrave; vừa vặn về thời gian.<br />
+<br />
+2. Quy tr&igrave;nh đi lễ tại C&ocirc;n Đảo<br />
+<br />
+B&ecirc;n cạnh thời gian đi lễ, tr&igrave;nh tự đi lễ cũng l&agrave; điều du kh&aacute;ch n&ecirc;n lưu &yacute;. Mỗi người sẽ c&oacute; một c&aacute;ch đi lễ ri&ecirc;ng nhưng dưới đ&acirc;y l&agrave; quy tr&igrave;nh được nhiều người c&oacute; kinh nghiệm đi lễ C&ocirc;n Đảo l&acirc;u năm lựa chọn v&igrave; thời gian hợp l&yacute; v&agrave; tận hưởng trọn vẹn trải nghiệm t&acirc;m linh khi đi C&ocirc;n Đảo.Việc đầu ti&ecirc;n khi đến C&ocirc;n Đảo, du kh&aacute;ch đi v&agrave;o lễ đ&agrave;i tượng niệm (cột cao nhất ở H&agrave;ng Dương). Tại đ&acirc;y, du kh&aacute;ch sẽ l&agrave;m lễ ch&iacute;nh cho c&aacute;c chiến sỹ c&aacute;ch mạng. Sau khi l&agrave;m lễ tại đ&agrave;i tưởng niệm, du kh&aacute;ch bắt đầu đi v&agrave;o viếng mộ c&aacute;c chiến sỹ c&aacute;ch mạng nổi tiếng, ti&ecirc;u biểu như mộ nh&agrave; y&ecirc;u nước L&ecirc; Hồng Phong, Nguyễn An Ninh nằm tại khu A nghĩa trang H&agrave;ng Dương. Du kh&aacute;ch đi lễ lần lượt từ khu A, đến khu B, khu C, v&agrave; cuối c&ugrave;ng l&agrave; khu D.Khi đi lễ v&agrave;o buổi s&aacute;ng, du kh&aacute;ch chỉ tiến h&agrave;nh lễ tr&igrave;nh c&ocirc; tại mộ c&ocirc; S&aacute;u, lễ ch&iacute;nh sẽ diễn ra v&agrave;o buổi tối. Sau khi đi hết c&aacute;c khu mộ, du kh&aacute;ch c&oacute; thể về nghỉ ngơi hoặc kh&aacute;m ph&aacute; c&aacute;c địa điểm kh&aacute;c ở C&ocirc;n Đảo như miếu b&agrave; Phi Yến, nh&agrave; t&ugrave; C&ocirc;n Đảo, ch&ugrave;a N&uacute;i Một.Đi viếng mộ c&ocirc; S&aacute;u v&agrave;o buổi tối l&agrave; phần tiếp theo của quy tr&igrave;nh đi lễ tại H&agrave;ng Dương. Trước khi đến mộ c&ocirc; S&aacute;u, mọi người cũng sẽ ra lễ tại đ&agrave;i tưởng niệm một lần nữa rồi mới bắt đầu v&agrave;o lễ c&ocirc; S&aacute;u. Nếu c&oacute; nhiều đồ lễ, du kh&aacute;ch n&ecirc;n đến sớm để b&agrave;y biện. Buổi tối tại phần mộ của c&ocirc; S&aacute;u rất đ&ocirc;ng, du kh&aacute;ch h&atilde;y ki&ecirc;n nhẫn chờ đến lượt m&igrave;nh v&agrave;o l&agrave;m lễ, tr&aacute;nh chen lấn, x&ocirc; đẩy<br />
+<br />
+3. Kinh nghiệm chuẩn bị đồ đi lễ<br />
+<br />
+Du kh&aacute;ch c&oacute; thể chuẩn bị đồ lễ tại nh&agrave; hoặc mua ở chợ trung t&acirc;m thị trấn C&ocirc;n Đảo cũng b&agrave;y b&aacute;n rất nhiều. Bộ đồ lễ viếng mộ c&ocirc; S&aacute;u cơ bản bao gồm 1 n&oacute;n l&aacute;, 1 sấp giấy tiền v&agrave;ng bạc tổng hợp, 1 bộ lược gương, 1 sấp c&aacute;c thỏi v&agrave;ng, 1 chai nước suối, 1 b&oacute; nhang v&agrave; quan trọng nhất l&agrave; hoa trắng. C&ocirc; S&aacute;u rất th&iacute;ch hoa trắng n&ecirc;n tuyệt đối đừng qu&ecirc;n m&oacute;n đồ c&uacute;ng n&agrave;y.Với những người gi&agrave;u kinh nghiệm đi lễ v&agrave; cầu k&igrave; hơn, họ đặt mua cả &aacute;o d&agrave;i được may đo thật. Khi đặt đồ lễ, b&ecirc;n để ngửa n&oacute;n l&aacute; l&ecirc;n, sau đ&oacute; b&agrave;y tất cả đồ c&uacute;ng v&agrave;o l&ograve;ng n&oacute;n l&aacute;, rồi đặt bộ lễ l&ecirc;n mộ C&ocirc; S&aacute;u. Du kh&aacute;ch cũng n&ecirc;n chuẩn bị cả đồ lễ viếng mộ c&aacute;c anh h&ugrave;ng liệt sĩ tại nghĩa trang H&agrave;ng Dương với cờ Tổ quốc, khăn rằn, mũ tai b&egrave;o v&agrave; quần &aacute;o bộ đội. Bạn đừng lo những đồ lễ sẽ bị đốt bỏ m&agrave; đều được Ban Quản l&yacute; nghĩa trang giữ lại sau khi lễ xong.<br />
+<br />
+4. Lưu &yacute; khi đi lễ tại C&ocirc;n Đảo<br />
+<br />
+C&ocirc;n Đảo l&agrave; địa điểm linh thi&ecirc;ng n&ecirc;n c&oacute; một số điều du kh&aacute;ch cần lưu &yacute;. Trước hết, khi đến nghĩa trang H&agrave;ng Dương, bạn n&ecirc;n hạn chế đ&ugrave;a giỡn, n&oacute;i bậy bạ, kể cả trong suy nghĩ cũng kh&ocirc;ng n&ecirc;n. Trang phục cũng l&agrave; một điều cần lưu &yacute; khi đi lễ. Tốt nhất du kh&aacute;ch n&ecirc;n chuẩn bị trang phục lịch sự, kh&ocirc;ng qu&aacute; ngắn cũng kh&ocirc;ng qu&aacute; hở hang để tr&aacute;nh l&agrave;m mất mỹ quan, g&acirc;y ảnh hưởng đến sự t&ocirc;n nghi&ecirc;m của C&ocirc;n Đảo. Bạn c&oacute; thể tham gia tour du lịch C&ocirc;n Đảo để được hướng dẫn đầy đủ hơn bởi những người hướng dẫn vi&ecirc;n c&oacute; nhiều năm kinh nghiệm đi lễ C&ocirc;n Đảo.<br />
+<br />
+II. Những địa điểm t&acirc;m linh C&ocirc;n Đảo<br />
+<br />
+Kh&ocirc;ng chỉ l&agrave; minh chứng của lịch sử h&agrave;o h&ugrave;ng, C&ocirc;n Đảo giờ đ&acirc;y c&ograve;n l&agrave; một trong những địa điểm linh thi&ecirc;ng bậc nhất với những địa danh t&acirc;m linh nổi tiếng. Nghĩa trang H&agrave;ng Dương, miếu b&agrave; Phi Yến, Ch&ugrave;a N&uacute;i Một, mộ c&ocirc; S&aacute;u&hellip; mỗi địa danh mang trong m&igrave;nh một c&acirc;u chuyện ri&ecirc;ng, nhưng đều l&agrave; những địa điểm chứa đựng niềm tin, v&agrave; những ước nguyện của người d&acirc;n C&ocirc;n Đảo v&agrave; cả du kh&aacute;ch.<br />
+<br />
+1. Đến nghĩa trang H&agrave;ng Dương tưởng nhớ c&aacute;c chiến sỹ c&aacute;ch mạng<br />
+<br />
+Nghĩa trang H&agrave;ng Dương l&agrave; nghĩa trang lớn nhất tại C&ocirc;n Đảo. Nơi đ&acirc;y ch&ocirc;n cất h&agrave;ng vạn người y&ecirc;u nước v&agrave; chiến sĩ c&aacute;ch mạng Việt Nam qua nhiều thế hệ bị t&ugrave; đ&agrave;y, k&eacute;o d&agrave;i từ năm 1862 đến năm 1975, trong nh&agrave; t&ugrave; C&ocirc;n Đảo của ch&iacute;nh quyền thuộc địa Ph&aacute;p, v&agrave; sau n&agrave;y l&agrave; ch&iacute;nh quyền Việt Nam Cộng h&ograve;a. Nghĩa trang gồm 4 khu ch&iacute;nh A, B, C, D v&agrave; cũng l&agrave; nơi y&ecirc;n nghỉ của nhiều &ldquo;tượng đ&agrave;i&rdquo; y&ecirc;u nước như V&otilde; Thị S&aacute;u, L&ecirc; Hồng Phong, Nguyễn An Ninh&hellip; Kh&ocirc;ng một ai đến với C&ocirc;n Đảo m&agrave; kh&ocirc;ng dừng ch&acirc;n thắp n&eacute;n hương tưởng niệm c&ocirc;ng lao của c&aacute;c anh h&ugrave;ng liệt sĩ tại H&agrave;ng Dương.<br />
+<br />
+2. Viếng mộ C&ocirc; V&otilde; Thị S&aacute;u<br />
+<br />
+Mộ c&ocirc; S&aacute;u từ l&acirc;u đ&atilde; l&agrave; biểu tượng gắn liền với h&igrave;nh ảnh C&ocirc;n Đảo. Nằm tại khu C nghĩa trang H&agrave;ng Dương, mộ c&ocirc; S&aacute;u l&agrave; địa điểm thu h&uacute;t đ&ocirc;ng đảo du kh&aacute;ch đến d&acirc;ng lễ. Cũng bởi nổi tiếng linh thi&ecirc;ng, lu&ocirc;n che chở cho những người th&agrave;nh t&acirc;m hướng thiện m&agrave; mộ c&ocirc; S&aacute;u kh&ocirc;ng l&uacute;c n&agrave;o thiếu vắng người đến h&agrave;nh lễ d&acirc;ng hương.<br />
+Nếu c&ocirc; S&aacute;u kh&ocirc;ng linh thi&ecirc;ng th&igrave; sẽ kh&ocirc;ng c&oacute; những c&aacute;n bộ cấp cao, đến lễ C&ocirc; S&aacute;u h&agrave;ng th&aacute;ng, h&agrave;ng năm v&agrave;o những ng&agrave;y lễ ng&agrave;y rằm. V&agrave; nếu kh&ocirc;ng thật sự linh thi&ecirc;ng th&igrave; sẽ chẳng c&oacute; những người v&agrave;ng đeo đầy người, kinh doanh phất phới, tiền ti&ecirc;u kh&ocirc;ng hết vẫn th&agrave;nh t&acirc;m đến lễ c&ocirc; h&agrave;ng th&aacute;ng.<br />
+&nbsp;<br />
+3. Hệ thống nh&agrave; t&ugrave; C&ocirc;n Đảo<br />
+<br />
+Kh&ocirc;ng phải l&agrave; một địa điểm linh thi&ecirc;ng, tuy nhi&ecirc;n nh&agrave; t&ugrave; C&ocirc;n Đảo l&agrave; một điểm đến rất hiếm khi du kh&aacute;ch bỏ qua khi đi du lịch t&acirc;m linh tại C&ocirc;n Đảo. Trước kia &ldquo; địa ngục trần gian &rdquo; n&agrave;y với một hệ thống c&aacute;c cụm c&ocirc;ng tr&igrave;nh như: Chuồng Cọp, Chuồng B&ograve;, trại Ph&uacute; Hải, cầu Ma Thi&ecirc;n L&atilde;nh, sở L&ograve; V&ocirc;i, sở Muối &hellip;. được x&acirc;y l&ecirc;n nhằm mục đ&iacute;ch cải tạo, giam giữ v&agrave; tra tấn c&aacute;c chiến sỹ c&aacute;ch mạng.<br />
+<br />
+Trong 113 năm tồn tại (1862-1975), nơi đ&acirc;y đ&atilde; giam cầm, đ&agrave;y đọa h&agrave;ng chục vạn chiến sĩ c&aacute;ch mạng v&agrave; những người y&ecirc;u nước Việt Nam. Tại đ&acirc;y, h&agrave;ng ng&agrave;n t&ugrave; nh&acirc;n nam lẫn nữ đ&atilde; bị h&agrave;nh hạ khổ sai, nhiều chiến sĩ c&aacute;ch mạng, người y&ecirc;u nước đ&atilde; hi sinh v&igrave; những nhục h&igrave;nh &aacute;m ảnh người nghe m&atilde;i về sau.<br />
+4. Ch&ugrave;a N&uacute;i Một C&ocirc;n Đảo<br />
+<br />
+Ch&ugrave;a N&uacute;i Một (V&acirc;n Sơn Tự) tọa lạc tr&ecirc;n N&uacute;i Một huyện C&ocirc;n Đảo, do Mỹ ngụy x&acirc;y dựng năm 1964 nhằm phục vụ t&iacute;n ngưỡng t&acirc;m linh cho c&aacute;c gia đ&igrave;nh của những người l&agrave;m việc trong bộ m&aacute;y h&agrave;nh ch&iacute;nh, c&aacute;c quan chức binh sĩ tr&ecirc;n đảo. Ng&agrave;y nay, ch&ugrave;a kh&ocirc;ng chỉ l&agrave; c&ocirc;ng tr&igrave;nh văn h&oacute;a, danh thắng, di t&iacute;ch lịch sử của huyện C&ocirc;n Đảo m&agrave; c&ograve;n l&agrave; nơi để nh&acirc;n d&acirc;n v&agrave; du kh&aacute;ch h&agrave;nh hương, hướng thiện v&agrave; cầu nguyện.Mọi người đến đ&acirc;y th&agrave;nh t&acirc;m đứng trước cửa Phật thắp hương cầu nguyện ban phước l&agrave;nh cho gia đ&igrave;nh v&agrave; người th&acirc;n, cũng như cầu cho vong hồn c&aacute;c anh h&ugrave;ng liệt sĩ m&atilde;i được si&ecirc;u độ. Ban ng&agrave;y, ch&ugrave;a lu&ocirc;n&nbsp; &ldquo;nườm nượp&rdquo; du kh&aacute;ch v&agrave;o ra khấn v&aacute;i.<br />
+&nbsp;<br />
+5. Miếu b&agrave; Phi Yến (An Sơn miếu)<br />
+Th&ecirc;m một địa điểm t&acirc;m linh tại C&ocirc;n Đảo du kh&aacute;ch kh&ocirc;ng n&ecirc;n bỏ qua đ&oacute; l&agrave; Miếu b&agrave; Phi Yến v&agrave; Ho&agrave;ng tử Cải. Ng&ocirc;i miếu rất linh thi&ecirc;ng, gắn liền với c&acirc;u chuyện bi thương của người phụ nữ t&agrave;i sắc, đức hạnh v&agrave; gi&agrave;u l&ograve;ng y&ecirc;u nước Phi Yến.<br />
+<br />
+Cảm phục người phụ nữ trung trinh tiết liệt người ở đ&acirc;y d&acirc;n lập miếu thờ b&agrave; t&ecirc;n gọi &ldquo;An Sơn Miếu&rdquo;. Người ta truyền rằng Đức b&agrave; Phi Yến v&agrave; Ho&agrave;ng tử Cải (con trai b&agrave;) đ&atilde; hiển th&aacute;nh, thường hiện về m&aacute;ch bảo cho d&acirc;n l&agrave;ng biết điềm l&agrave;nh, dữ sắp xảy ra. Ch&iacute;nh v&igrave; thế m&agrave; từ ng&agrave;y lập miếu, kh&ocirc;ng l&uacute;c n&agrave;o miếu b&agrave; Phi Yến vắng b&oacute;ng người hay nguội lạnh kh&oacute;i hương. Theo người d&acirc;n đảo, người d&acirc;n v&agrave; kh&aacute;ch du lịch đến đ&acirc;y phần lớn l&agrave; để cầu an, mong b&agrave; Phi Yến ban t&agrave;i ph&aacute;t lộc.<br />
+<br />
+Tr&ecirc;n đ&acirc;y l&agrave; to&agrave;n bộ quy tr&igrave;nh đi lễ cũng như những kinh nghiệm đi lễ C&ocirc;n Đảo cần lưu &yacute; d&agrave;nh cho du kh&aacute;ch khi đi C&ocirc;n Đảo. Chuyện t&acirc;m linh t&ugrave;y thuộc v&agrave;o sự t&iacute;n t&acirc;m của mỗi người v&agrave; để chuyến đi được thuận lợi nhất, du kh&aacute;ch n&ecirc;n tham khảo những th&ocirc;ng tin đi lễ C&ocirc;n Đảo ở tr&ecirc;n.</div>
+
+        </div>
+    </div>
+
+
+
+</div>
+    <div class="about mt-4 mb-3">
+        <div class="container">
+            <div class="title-h2 text-center">
+                <h1 class="mb-4">Bài viết liên quan</h1>
+            </div>
+            <div class="row" style="position:inherit">
+
+<div class="tab-info col-lg-4 col-md-6 col-sm-12">
+                            <div class="img-tag">
+                                <a href="/article/thue-xe"> <img src="/Files/Images/Article/154.jpg" alt="/Files/Images/Article/154.jpg"></a>
+                            </div>
+                            <div class="info-tag">
+                                <a href="/article/thue-xe">
+                                    <p>THU&#202; XE</p>
+                                </a>
+                                <div class="tag-date">
+                                    <i class="fas fa-calendar-alt" style="color: grey; margin-right: 5px" aria-hidden="true"></i>
+                                    <span>15/03/2021</span>
+                                </div>
+                            </div>
+                        </div>
+         
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end main -->
+    <div class="footer">
+        <div class="footer-top">
+            
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 pr-0">
+                        <div class="footer__info">
+                            <div class="footer__caption">
+                                <span class="text">Liên hệ</span>
+                                <span class="caption-bottom"></span>
+                            </div>
+                            <div class="footer__address">
+                                <ul class="">
+                                    <li>
+                                        <a href="https://goo.gl/maps/MsdkV6aRRRQMg9SS6" target="_blank">
+                                            <span>
+                                                <b>Văn phòng chính:</b> Tầng 4, số 147 Mai Dịch, Cầu Giấy, H&#224; Nội
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span>VP :</span>
+                                        <a href="tel:0242 242 0777">0242 242 0777</a>
+
+                                    </li>
+                                    <li>
+                                        <span>Hotline :</span>
+                                        <a href="tel:0242 242 0777">0242 242 0777</a>
+                                    </li>
+                                    <li>
+                                        <span>Email:</span>
+                                        <a href="mailto:info@webtravel.vn">info@webtravel.vn</a>
+                                    </li>
+                                    <li>
+                                        <span>Nguồn: </span> <a href="/">venustravel.webtravel.vn/</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="footer__caption">
+                                <span class="text">Chấp nhận thanh toán</span>
+                                <span class="caption-bottom"></span>
+                            </div>
+                            <div class="card-payment">
+                                <span></span><span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer__mid">
+                            <div class="logo-footer">
+                                <a href="index.html"><img src="/Assets/images/logo-menu.PNG" alt=""></a>
+                            </div>
+
+                            <div class="social-wp">
+                                <span>KẾT NỐI CÙNG CHÚNG TÔI QUA</span>
+                                <ul class="list-social">
+                                    <li>
+                                        <a href="#" class="social__item"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social__item"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social__item"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social__item"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 ">
+                        <div class="ml-0 ml-lg-5 footer__right">
+                            <div class="footer__intro">
+                                <div>
+                                    Với phương châm “Sự hài lòng của khách hàng là niềm vui, động lực của chúng tôi” cùng chính sách đa dạng hóa sản phẩm và bảo đảm thực hiện đúng những cam kết về chất lượng, Venus Travel đã định vị trong lòng khách hàng là thương hiệu lữ hành hàng đầu về chất lượng dịch vụ cho khách hàng cùng trải nghiệm.
+                                </div>
+                            </div>
+
+                            <div class="receive-info">
+                                <div class="receive-info__head">
+                                    <img src="./Assets/images/icon/signup.png" alt="">
+                                    <span>ĐĂNG KÝ NHẬN TIN KHUYẾN MẠI</span>
+                                </div>
+                                <form action="/" onsubmit="return validateForm()" method="post" id="form-getsale">
+                                    <div class="form-group receive__group">
+                                        <label for="name">Họ và tên<span>*</span>:</label>
+                                        <input type="text" name="name" class="form-control" placeholder="Nhập họ và tên" id="name">
+
+                                    </div>
+                                    <div class="form-group receive__group">
+                                        <label for="email">Email <span>*</span>:</label>
+                                        <input type="email" name="mail" class="form-control" placeholder="Nhập email của bạn" id="email">
+
+                                    </div>
+                                    <div class="form-group receive__group">
+                                        <label for="tel">Số điện thoại :</label>
+                                        <input type="tel" name="phone-number" class="form-control" placeholder="Nhập số điện thoại của bạn" id="tel">
+
+                                    </div>
+                                    <button type="submit" class="btn btn-block btn-signup">Đăng ký</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <div class="footer-info text-center">
+        			<p>Copyright © VenusTravel. All Rights Reserved | Design by <a href="https://webtravel.vn/" style="color: #f19932;">webtravel.vn</a></p>
+    			</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- end footer -->
+    <div class="widget-contact">
+        <div class="widget-contact__item phone-number">
+            <a href="tel:02422420777" data-toggle="tooltip" data-placement="left" title="Gọi tổng đài 0242.242.0777"><img src="/Assets/images/icon/call-icon.svg" alt="phone"></a>
+        </div>
+        <div class="widget-contact__item messenger">
+            <a href="https://www.facebook.com/messages/t/107433976602751" data-toggle="tooltip" data-placement="left" title="Chat với Venus Travel trên facebook"><img src="/Assets/images/icon/fb-mess-icon.svg" alt="messenger"></a>
+        </div>
+        <div class="widget-contact__item zalo">
+            <a href="https://zalo.me" data-toggle="tooltip" data-placement="left" title="Chat với chúng tôi trên Zalo"><img src="/Assets/images/icon/zalo-icon.png" alt="zalo"></a>
+        </div>
+        <div class="widget-contact__item mail">
+            <a href="mailto:info@webtravel.vn" data-toggle="tooltip" data-placement="left" title="Liên hệ với chúng tôi"><img src="/Assets/images/icon/email-icon.svg" alt="mail"></a>
+        </div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="/Assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="/Plugins/bootstrap-4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Plugins/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="/Plugins/slick/slick.min.js"></script>
+	
+    <!-- <script type="text/javascript" src="/Plugins/daterangepicker/daterangepicker.min.js"></script> -->
+	
+    <script src="/Plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="/Plugins/validation1.19.3/jquery.validate.min.js"></script>
+    <script src="/Plugins/rating/rating.js"></script>
+	<script src="/Plugins/fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/Assets/js/main.js"></script>
+    <script src="/Assets/js/slider.js"></script>
+	
+	 <script>
+	$(".closetop").click(function(){
+		$(".contacthotel").hide();
+		});
+		/*$(window).scroll(function()
+		{
+		if($(window).scrollTop() > 200)
+		{
+			$(".contacthotel").addClass("fixedcontact");
+		}
+		else{
+			$(".contacthotel").removeClass("fixedcontact");
+		}
+		})*/
+</script>
+</body>
+</html>
